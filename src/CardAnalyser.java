@@ -1,9 +1,9 @@
 import java.util.HashMap;
 
 public class CardAnalyser {
-	private HashMap<Number, Player> order;
+	private HashMap<Number, Player> rank;
 	public CardAnalyser() {
-		order = new HashMap<Number, Player>();
+		this.rank = new HashMap<Number, Player>();
 	}
 	public void Analyse() {
 	}
